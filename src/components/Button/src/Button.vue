@@ -2,6 +2,9 @@
 import { useDesign } from '@/hooks/web/useDesign'
 import { ElButton, ComponentSize, ButtonType } from 'element-plus'
 import { PropType, Component, computed, unref } from 'vue'
+/**
+ * PropType 是 Vue 中的一个类型工具，TS在编译时检查（支持联合类型、泛型），Vue在运行时检查（只支持基本类型）
+ */
 import { useAppStore } from '@/store/modules/app'
 
 const appStore = useAppStore()

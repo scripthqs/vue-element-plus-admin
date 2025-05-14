@@ -1,3 +1,6 @@
+/**
+ * 新用户引导库
+ */
 import { Config, driver } from 'driver.js'
 import 'driver.js/dist/driver.css'
 import { useDesign } from '@/hooks/web/useDesign'
