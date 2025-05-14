@@ -3,6 +3,7 @@ import { provide, computed, watch, onMounted } from 'vue'
 import { propTypes } from '@/utils/propTypes'
 import { ComponentSize, ElConfigProvider } from 'element-plus'
 import { useLocaleStore } from '@/store/modules/locale'
+// https://vueuse.org/guide/
 import { useWindowSize } from '@vueuse/core'
 import { useAppStore } from '@/store/modules/app'
 import { setCssVar } from '@/utils'
